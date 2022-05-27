@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <!-- <suite name="CrossBrowser"> -->
-<suite name="CrossBrowser" parallel="tests" thread-count="1">
+<suite name="CrossBrowser" parallel="tests" thread-count="4">
+  <listeners>
+		<listener class-name="com.mystore.utility.ListenerClass"></listener>
+	</listeners>
 
   <test name="ChromeTest">
 		<parameter name="browser" value="Chrome"></parameter>
