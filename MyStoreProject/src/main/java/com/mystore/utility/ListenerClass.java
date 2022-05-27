@@ -13,6 +13,10 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.mystore.actiondriver.Action;
 import com.mystore.base.BaseClass;
 
+/**
+ * @author Akash: ExtentManager class is used for Extent Report
+ *  
+ */
 
 public class ListenerClass extends ExtentManager implements ITestListener {
 
