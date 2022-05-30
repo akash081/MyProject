@@ -19,10 +19,10 @@ public class LoginPage extends BaseClass{
 	Action action= new Action();
 	
 	@FindBy(xpath="//input[@id='email']")
-	WebElement userName;
+	private WebElement userName;
 	
 	@FindBy(xpath="//input[@id='passwd']")
-	WebElement password;
+	private WebElement password;
 	
 	@FindBy(xpath="//button[@name='SubmitLogin']")
 	private WebElement signInBtn;

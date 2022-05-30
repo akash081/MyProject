@@ -19,10 +19,10 @@ public class HomePage extends BaseClass{
 	Action action= new Action();
 	
 	@FindBy(xpath="//i[@class='icon-heart']")
-	WebElement myWishList;
+	private WebElement myWishList;
 	
 	@FindBy(xpath="//i[@class='icon-list-ol']")
-	WebElement orderHistory;
+	private WebElement orderHistory;
 	
 	public HomePage() {
 		PageFactory.initElements(getDriver(), this);
